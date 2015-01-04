@@ -15,7 +15,7 @@ public class JavaCVTestReading {
     public static void main(String[] args) throws Exception {
 
 
-        FrameGrabber grabber = new OpenCVFrameGrabber("src/main/resources/video/tunnel.mp4");
+        FrameGrabber grabber = new OpenCVFrameGrabber("/Users/hemikakodikara/Documents/My Movie99.mp4");
         grabber.start();
         opencv_core.IplImage grabbedImage = grabber.grab();
         CanvasFrame canvasFrame = new CanvasFrame("Video with JavaCV");
